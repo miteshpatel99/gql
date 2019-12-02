@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "startdev": "nodemon --exec babel-node src/index.js",
-    "start": "nodemon --exec babel-node src/index.js",
-    
+    "start": "node dist/index.js",
+    "build": "babel -d dist/ src/ && node dist/index.js" ,
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --exec babel-node src/index.js"
   },
