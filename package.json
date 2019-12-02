@@ -6,7 +6,7 @@
   "scripts": {
     "startdev": "nodemon --exec babel-node src/index.js",
     "start": "nodemon --exec babel-node src/index.js",
-    "build": "babel -d dist/ src/",
+    
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --exec babel-node src/index.js"
   },
